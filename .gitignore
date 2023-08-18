@@ -1,0 +1,13 @@
+# === RUST ===
+debug/
+target/
+
+**/*.rs.bk
+*.pdb
+
+# === IDE ===
+.idea/
+.vscode/
+
+# === PROJECT ===
+test_target/

@@ -1,0 +1,17 @@
+[package]
+name = "lamina"
+version = "0.0.1"
+edition = "2021"
+authors = ["Akzyra"]
+readme = "README.md"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+ron = "0.8"
+walkdir = "2.3"
+rfd = "0.11"
+
+eframe = "0.22"
+egui = "0.22"
+egui_extras = "0.22"
+egui_dnd = "0.5"
